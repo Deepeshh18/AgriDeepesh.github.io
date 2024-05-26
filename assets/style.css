@@ -1,0 +1,256 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body{
+background-color: rgb(213, 221, 228);
+}
+
+
+.navbar{
+    background-color: white;
+  
+}
+
+
+
+.navbar ul li{
+    display: inline-flex;
+    margin: 10px;
+    float: right;
+  
+}
+
+.navbar ul li a{
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+    color: black;
+   
+}
+
+.navbar ul li a:hover{
+    color: blue;
+    text-decoration: underline;
+}
+
+
+.main {
+    width: 85vw;
+    display: flex;
+  }
+  
+  .infoContainer {
+    height: 65vh;
+    width: 80vw;
+    margin: 120px auto;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .devPic img {
+    height: 64vh;
+    width: 68vh;
+    border-radius: 50%;
+  }
+  
+  .devInfo {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: "Hubballi", cursive;
+  }
+  .hello {
+    font-size: 50px;
+   
+  }
+  .name {
+    font-size: 30px;
+    font-weight: bold;
+    font-family: "Hubballi", sans-serif;
+  }
+  .about {
+    font-size: 20px;
+  }
+  
+  .moreabt{
+      font-size: 25px;
+      margin-top: 15px;
+  
+  }
+  .btn{
+      margin-top: 30px;
+  }
+  .btn button {
+      background-color: white;
+      border-radius: 16px;
+      padding: 6px;
+      cursor: pointer;
+  }
+  
+  
+  .btn button:hover {
+      /* background-color: black; */
+      border: 2px solid blue;
+  
+  }
+  .sidebar nav li a{
+  
+  text-decoration: none;
+  color: whitesmoke;
+  }
+  
+  
+  .blogItem{
+    margin: 30px;
+  }
+  
+  
+  .blogItem h2{
+    margin: 10px 0;
+  }
+  
+  
+  .blockContainer h1{
+    margin: 30px;
+    
+  }
+  
+  .infoContainer{
+    backdrop-filter: blur(100px);
+    border-radius: 25px;
+  }
+  .devInfo{
+    padding: 10px;
+  }
+ .moreabt{
+    font-size: small;
+    margin-left: 110px;
+    padding: 10px;
+    border-radius: 22px;
+    background-color: blue;
+    color: white;
+    border: 2px solid black;
+    font-weight: bold;
+    font-size: 14px;
+ }
+
+ .moreabt:hover{
+    cursor: pointer;
+    background-color: rgb(28, 28, 120);
+    color: antiquewhite;
+    border: 2px solid blue;
+ }
+ 
+.resume{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.resume a {
+  margin: 15px;
+  cursor: pointer;
+}
+
+.image{
+  display: flex;
+  justify-content: center ;
+align-items: center;
+
+}
+.image a button{
+  cursor: pointer;
+
+}
+.image img{
+  margin: 15px;
+  border: 1px solid black;
+  border-radius: 2px;
+}
+
+.skills{
+  background-color: darkblue;
+  width: 100%;
+  height: 200px;
+}
+.skills h1 {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.cards{
+  margin-top: 20px;
+  margin-left: 120px;
+  width: 80%;
+  height: 120px;
+  background-color: blue;
+  display: flex;
+}
+
+.card{
+  display: grid;
+  margin: 10px;
+}
+
+.education{
+  margin-top: 20px;
+}
+.education h1{
+  display: flex;
+  justify-content: center;
+  font-size: xx-large;
+}
+.education h3{
+  display: flex;
+  justify-content: center;
+}
+#input{
+display: flex;
+align-items: flex-end;
+justify-content: flex-end;
+border: none;
+margin-right: 20px;
+padding: -5px;
+}
+
+#line{
+  display: flex;
+  justify-content: center;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-bottom: 100px;
+}
+
+.education p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  font-size: larger;
+
+}
+
+.kv{
+  display: flex;
+  margin: 15px;
+  box-shadow: 5px 5px 5px rgb(80, 76, 76);
+}
+
+.kv img{
+margin-right: 5px;
+padding: 3px;
+  border: 3px solid rgb(145, 164, 164);
+  box-shadow: 2px 2px 2px 2px rgb(97, 103, 103);
+}
+
+.heading{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
